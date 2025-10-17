@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #62cff4 0%, #2c67f2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    backdrop-filter: blur(20px);
+}
+
+h1 {
+    color: #0077ff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.95em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #b8b8b8;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #0077ff;
+    background: white;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-add {
+    background: #0077ff;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.filter-section {
+    margin: 30px 0;
+}
+
+.filter-title {
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-filter {
+    padding: 8px 20px;
+    background: white;
+    color: #0077ff;
+    border: 2px solid #0077ff;
+    flex: 1;
+    min-width: 100px;
+}
+
+.btn-filter:hover {
+    background: #0077ff;
+    color: white;
+}
+
+.btn-filter.active {
+    background: #0077ff;
+    color: white;
+}
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #a3ceff;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+      color: #000000;
+    }
+
+    th {
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: 0.8;
+      background-color: #3c97ff;
+    }
+
+.no-task {
+      text-align: center;
+      color: #000000;
+      padding: 20px;
+    }
