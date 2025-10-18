@@ -17,18 +17,18 @@
                 <input type="text" id="todo-input" placeholder="Enter new task" required>
             </div>
             <div class="form-group">
-                <label for="date-input">Tanggal</label>
+                <label for="date-input">Date</label>
                 <input type="date" id="date-input" required>
             </div>   
             <button type="submit" class="btn btn-add">Add Task</button>
         </form>
 
         <div class="filter-section">
-            <div class="filter-title">Filter:</div>
+            <div class="filter-title">Filter</div>
             <div class="filter-buttons">
-                <button class="btn btn-filter active" data-filter="all">Semua</button>
-                <button class="btn btn-filter" data-filter="active">Belum selesai</button>
-                <button class="btn btn-filter" data-filter="completed">Selesai</button>
+                <button class="btn btn-filter active" data-filter="all">All</button>
+                <button class="btn btn-filter" data-filter="active">Progress</button>
+                <button class="btn btn-filter" data-filter="completed">Complete</button>
             </div>
         </div>
 
@@ -46,5 +46,7 @@
             </tbody>
         </table>
     </div>
+
+    <script src="js/script.js" defer></script>
 </body>
 </html>
